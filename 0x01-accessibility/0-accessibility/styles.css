@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #F8F8F8;
+    color: #000;
+    font-size: 1.1em;
+    margin: 1em;
+}
+
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.post {
+  background-color: #fff;
+  width: 70%;
+  margin: 1em;
+  padding: 1em;
+}

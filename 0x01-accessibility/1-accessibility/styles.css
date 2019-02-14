@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 2em 5em;
+}
+
+header {
+    padding: 20px 0px;
+    border-bottom: 1px solid red;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#container {
+    margin: 20px 0px;
+    display: flex;
+}
+
+article {
+    width: 50%;
+    margin-right: 40px;
+    font-size: 1.1em;
+}
+p {
+  margin-bottom: 0.5em;
+}
