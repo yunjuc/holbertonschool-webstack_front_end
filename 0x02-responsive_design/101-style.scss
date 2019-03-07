@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  padding: 20px 0;
+
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+  .box1, .box5 {
+    width: 8%;
+    height: 30%;
+    font-size: 1.5em;
+  }
+
+  .box2, .box4 {
+    width: 16%;
+    height: 60%;
+    font-size: 3em;
+  }
+
+  .box3 {
+    width: 24%;
+    height: 90%;
+    font-size: 4.5em;
+    background-color: #2A3F54;
+  }
+
+  .box1 {
+    background-color: #00DA6F;
+  }
+
+  .box2 {
+    background-color: #0094E2;
+  }
+
+  .box4 {
+    background-color: #AA3AB9;
+  }
+
+  .box5 {
+    background-color: #F57500;
+  }
+}

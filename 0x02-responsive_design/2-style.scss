@@ -1,0 +1,12 @@
+/* media query to change background color */
+body {
+  background-color: #FF0000;
+
+  @media screen and (max-width: 900px) {
+    background-color: #00FF00;
+  }
+
+  @media screen and (max-width: 500px) {
+    background-color: #0000FF;
+  }
+}

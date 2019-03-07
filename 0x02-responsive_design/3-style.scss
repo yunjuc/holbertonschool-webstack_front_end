@@ -1,0 +1,20 @@
+/* media query to change image size */
+* {
+    margin: 0;
+    padding: 0;
+
+  img {
+    width: 24%;
+
+    @media screen and (max-width: 900px) {
+      width: 32%;
+    }
+
+    @media screen and (max-width: 600px) {
+      width: 49%;
+    }
+    @media screen and (max-width: 300px) {
+      width: 100%;
+    }
+  }
+}
