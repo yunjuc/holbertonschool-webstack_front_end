@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  height: 100px;
+  position: relative;
+
+  @for $i from 1 to 5 {
+    .item:nth-child(#{$i}){
+      position: absolute;
+      @if $i == 1 {
+      top: 0;
+      left: 0; }
+      @if $i == 2 {
+      top: 0;
+      right: 0; }
+      @if $i == 3 {
+      bottom: 0;
+      left: 0; }
+      @if $i == 4 {
+      bottom: 0;
+      right: 0; }
+    }
+  }
+}
